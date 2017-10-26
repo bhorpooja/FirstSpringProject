@@ -11,7 +11,7 @@ public class FirstSpringProjectApplication {
 
 	@RequestMapping(value = "/check")
 	String check(){
-		return "Welcome....";
+		return "Welcome....Spring";
 	}
 	public static void main(String[] args) {
 		SpringApplication.run(FirstSpringProjectApplication.class, args);
